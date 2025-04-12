@@ -1,0 +1,14 @@
+{
+	"type": "module",
+	"scripts": {
+		"format": "biome format .",
+		"lint": "biome lint",
+		"check": "biome check",
+		"fix": "biome check --fix",
+		"ci": "biome ci",
+		"prepare": "node ./prepare.js"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.0.0-beta.1"
+	}
+}
